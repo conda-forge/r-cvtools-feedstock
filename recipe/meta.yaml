@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: cvTools_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/cvTools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cvTools/cvTools_{{ version }}.tar.gz
@@ -40,7 +39,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=cvTools
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Tools that allow developers to write functions for cross-validation with minimal programming
     effort and assist users with model selection.
   license_family: GPL3
@@ -49,9 +48,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
