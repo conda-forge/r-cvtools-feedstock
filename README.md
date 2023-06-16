@@ -1,11 +1,11 @@
-About r-cvtools
-===============
+About r-cvtools-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cvtools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=cvTools
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cvtools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools that allow developers to write functions for cross-validation with minimal programming effort and assist users with model selection.
 
